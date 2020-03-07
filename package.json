@@ -1,0 +1,22 @@
+{
+  "name": "Docker-Test",
+  "version": "1.0",
+  "scripts": {
+    "dev": "nodemon server/index.js --exec babel-node NODE_ENVIRONMENT=dev",
+    "production": "nodemon server/index.js --exec babel-node NODE_ENVIRONMENT=production"
+  },
+  "description": "A workspace to test image creation and docker compose",
+  "author": "Kyle Fong <krfong@ucsc.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "volleyball": "^1.5.1"
+  }
+}
