@@ -16,7 +16,7 @@ COPY . /app
 
 # Set build-time variables
 ARG NODE_ENVIRONMENT=dev
-ARG PORT=3000
+ARG PORT=3001
 
 # Set default run-time variables, can be overridden when creating a new container
 ENV PORT=${PORT}
