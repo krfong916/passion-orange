@@ -39,11 +39,11 @@ Check out `http://localhost:3000` in your browser.
 
 ## Built With
 
-Node / Express - Server Framework
-Docker - Container Software
-Babel - Transpiler
-Yarn - Dependency Management
+Node / Express - Server Framework <br/>
+Docker - Container Software <br/>
+Babel - Transpiler <br/>
+Yarn - Dependency Manager <br/>
 
 ## About the Author
 
-What's good? I'm Kyle Fong. I'm a software engineer.
+What's good? I'm Kyle Fong. I know a little about software engineering. Destroy power, that's all.
