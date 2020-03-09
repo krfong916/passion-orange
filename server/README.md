@@ -23,13 +23,14 @@ git clone https://github.com/krfong916/passion-orange.git
 _Note:_ You must remove the `docker-compose.yml` file from the project directory
 
 ```sh
-docker image build -t image-name-here:version-number-here .
-docker container run -p 3000:3000 --name specify-container-identifier-here image-name-here:version-number-here
+docker image build -t image_name_here:version_number_here .
+docker container run -p 3000 --name specify_container_identifier_here image_name_here:version_number_here
 ```
 
 #### With Docker Compose
 
 ```sh
+docker-compose build
 docker-compose up
 ```
 

@@ -23,27 +23,28 @@ git clone https://github.com/krfong916/passion-orange.git
 _Note:_ You must remove the `docker-compose.yml` file from the project directory
 
 ```sh
-docker image build -t image-name-here:version-number-here .
-docker container run -p 8001:8001 --name specify-container-identifier-here image-name-here:version-number-here
+docker image build -t image_name_here:version_number_here .
+docker container run -p port_number_here --name specify_container_identifier_here image_name_here:version_number_here
 ```
 
 #### With Docker Compose
 
 ```sh
+docker-compose build
 docker-compose up
 ```
 
 #### Using Docker for Windows, Mac or Linux?
 
-Check out `http://localhost:8001` in your browser.
+Check out `http://localhost:port_number` in your browser.
 
 ## Built With
 
-Node / Express - Server Framework <br/>
-Docker - Container Software <br/>
-Babel - Transpiler <br/>
-Yarn - Dependency Manager <br/>
+Node / Express - Server Framework
+Docker - Container Software
+Babel - Transpiler
+Yarn - Dependency Management
 
 ## About the Author
 
-What's good? I'm Kyle Fong. I know a little about software engineering. Destroy power, that's all.
+What's good? I'm Kyle Fong. I'm a software engineer.
